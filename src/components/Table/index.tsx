@@ -59,7 +59,7 @@ class Table extends Component<Props, State> {
             <img src={imgCheckmark} alt="" />
             <div>
               <div>
-                Export file has 2268 rows
+                Export file has {this.rowNumber} rows
               </div>
               <div>
                 small file size (no export restriction)
@@ -97,6 +97,10 @@ class Table extends Component<Props, State> {
         </div>
       </>
     );
+  }
+
+  private get rowNumber(): number {
+    return this.props.data.dispensings.length;
   }
 
   private renderRow(row: Row, key: number): ReactNode {
