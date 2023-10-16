@@ -47,22 +47,20 @@ class App extends Component<{}, State> {
   render() {
     return (
       <div id="app" className="container">
-        <BrowserRouter>
+        <BrowserRouter basename="/">
           <Routes>
-            <Route>
-              <Route 
-                path="/sales-export" 
-                element={<SalesExport data={this.state.data} refreshTime={this.state.refreshTime} />} 
-              />
-              <Route 
-                path="/" 
-                element={<Overview data={this.state.data} refreshTime={this.state.refreshTime} />} 
-              />
-              <Route 
-                path="*" 
-                element={<NotFound />} 
-              />
-            </Route>
+            <Route 
+              path="/" 
+              element={<Overview data={this.state.data} refreshTime={this.state.refreshTime} />} 
+            />
+            <Route 
+              path="/sales-export" 
+              element={<SalesExport data={this.state.data} refreshTime={this.state.refreshTime} />} 
+            />
+            <Route 
+              path="*" 
+              element={<NotFound />} 
+            />
           </Routes>
           <Tabs />  
         </BrowserRouter>
