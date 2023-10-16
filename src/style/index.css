@@ -19,7 +19,7 @@ body {
 }
 
 body::before, body::after {
-  display: block;
+  display: none;
   color: #FCFCFC;
   font-weight: 400;
   position: fixed;
