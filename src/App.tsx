@@ -45,9 +45,17 @@ class App extends Component<{}, State> {
   }
 
   render() {
+    const basename = window.location.hostname === 'colobrod.github.io'
+      ? '/coffee-machine-stats'
+      : '/';
+    console.log("%cDomain name:", "color: dodgerblue; font-size: 18px; font-weight: bold");
+    console.log(window.location.hostname)
+    console.log("%cBasename:", "color: dodgerblue; font-size: 18px; font-weight: bold");
+    console.log(basename)
+
     return (
       <div id="app" className="container">
-        <BrowserRouter basename="/">
+        <BrowserRouter basename={basename}>
           <Routes>
             <Route 
               path="/" 
