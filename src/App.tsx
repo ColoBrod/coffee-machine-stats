@@ -89,7 +89,6 @@ class App extends Component<{}, State> {
     const data = await fetchData();
     const refreshTime = new Date();
     this.setState({ data, refreshTime });
-    console.log("Data refreshed")
   }
 
 };

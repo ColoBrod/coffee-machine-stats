@@ -3,7 +3,7 @@
 .info-block.with-chart {
   > div {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     .chart-wrapper {
       canvas {
         width: 100%;
