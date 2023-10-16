@@ -1,0 +1,13 @@
+@custom-media --xl (min-width: 1200px);
+@custom-media --lg (min-width: 992px) and (max-width: 1199px);
+@custom-media --md (min-width: 768px) and (max-width: 991px);
+@custom-media --sm (min-width: 576px) and (max-width: 767px);
+@custom-media --xs (max-width: 575px);
+
+/* Portrait mode includes square */
+@custom-media --landscape (min-aspect-ratio: 4/3);
+@custom-media --square (min-aspect-ratio: 3/4) and (max-aspect-ratio: 4/3);
+@custom-media --portrait (max-aspect-ratio: 3/4);
+
+/* @custom-media --portrait (orientation: portrait);
+@custom-media --landscape (orientation: landscape); */

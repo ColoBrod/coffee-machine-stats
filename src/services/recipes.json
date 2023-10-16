@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Капучино 250мл",
+    "water": 0.020,
+    "milk": 0.150,
+    "coffee": 0.008,
+    "chocolate": 0
+  },
+  {
+    "id": 2,
+    "name": "Капучино 300мл",
+    "water": 0.040,
+    "milk": 0.230,
+    "coffee": 0.016,
+    "chocolate": 0
+  },
+  {
+    "id": 3,
+    "name": "Латте 250мл",
+    "water": 0.020,
+    "milk": 0.170,
+    "coffee": 0.008,
+    "chocolate": 0
+  },
+  {
+    "id": 4,
+    "name": "Латте 300мл",
+    "water": 0.040,
+    "milk": 0.250,
+    "coffee": 0.016,
+    "chocolate": 0
+  },
+  {
+    "id": 5,
+    "name": "Эспрессо 20мл",
+    "water": 0.020,
+    "milk": 0,
+    "coffee": 0.008,
+    "chocolate": 0
+  },
+  {
+    "id": 6,
+    "name": "Эспрессо 40мл",
+    "water": 0.040,
+    "milk": 0,
+    "coffee": 0.016,
+    "chocolate": 0
+  },
+  {
+    "id": 7,
+    "name": "Американо 200мл",
+    "water": 0.200,
+    "milk": 0,
+    "coffee": 0.008,
+    "chocolate": 0
+  },
+  {
+    "id": 8,
+    "name": "Американо 300мл",
+    "water": 0.300,
+    "milk": 0,
+    "coffee": 0.016,
+    "chocolate": 0
+  },
+  {
+    "id": 9,
+    "name": "Флэт Уайт 250мл",
+    "water": 0.040,
+    "milk": 0.150,
+    "coffee": 0.016,
+    "chocolate": 0
+  },
+  {
+    "id": 10,
+    "name": "Горячий шоколад 250мл",
+    "water": 0.060,
+    "milk": 0.100,
+    "coffee": 0,
+    "chocolate": 0.070
+  },
+  {
+    "id": 11,
+    "name": "Горячий шоколад 300мл",
+    "water": 0.060,
+    "milk": 0.130,
+    "coffee": 0,
+    "chocolate": 0.090
+  },
+  {
+    "id": 12,
+    "name": "Макиато 60мл",
+    "water": 0.040,
+    "milk": 0.010,
+    "coffee": 0.016,
+    "chocolate": 0
+  }
+]

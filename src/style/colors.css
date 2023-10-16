@@ -1,0 +1,26 @@
+:root {
+  --clr-bg: #FBFBFB;
+  --clr-info-block-border: #D8D8D8; /* Этот же цвет для бэджей */
+
+  --clr-h1: #252423;
+  --clr-h2: #323130;
+
+  --clr-info-bg: #F4F4F4;
+  --clr-info-dark: #3F3E43;
+  --clr-info-light: #999999;
+  --clr-font: #2D242B; 
+
+  --clr-badge: #8D8D8D;
+
+  --clr-info-positive: #3F8B48;
+  --clr-info-negative: #DF777F;
+  
+  --clr-tab-font: #42423F;
+  --clr-tab-bg: #F5F5F5;
+  --clr-tab-bg-active: #FFFFFF;
+  --clr-tab-border: #DEDEDE;
+  --clr-tab-active: #117865;
+
+  --clr-table-odd: #FFFFFF;
+  --clr-table-even: #EEEDED;
+}

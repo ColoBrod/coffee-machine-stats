@@ -1,0 +1,40 @@
+@import 'style/media-queries';
+
+.info-block.with-chart {
+  > div {
+    display: flex;
+    .chart-wrapper {
+      /* flex-shrink: 1; */
+      width: 100%;
+    }
+    .dispensings-total {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 1.2rem;
+
+      .amount {
+        padding: 1.8rem 0 0.8rem;
+        text-align: center;
+        font-size: 2rem;
+      }
+
+      .description {
+        font-size: 1.2rem;
+        text-align: left;
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}
+
+/* @media (--lg) and (--md) and (--sm) and (--xs) {
+  .info-block.with-chart {
+
+  }
+  width: 40%;
+} */

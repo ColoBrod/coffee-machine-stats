@@ -1,0 +1,38 @@
+@import 'style/media-queries';
+
+/* EXTRA LARGE */
+@media (--xl) {
+  body::after { content: "XL"; background: red; }
+}
+
+/* LARGE */
+@media (--lg) {
+  body::after { content: "LG"; background: #ff8300; }
+}
+
+/* MEDIUM */
+@media (--md) {
+  body::after { content: "MD"; background: green; }
+}
+
+/* SMALL */
+@media (--sm) {
+  body::after { content: "SM"; background: blue; }
+}
+
+/* EXTRA SMALL */
+@media (--xs) {
+  body::after { content: "XS"; background: #6800ff; }
+}
+
+@media (--portrait) {
+  body::before { content: "PORTRAIT"; background: red; }
+}
+
+@media (--square) {
+  body::before { content: "SQUARE"; background: orange; }
+}
+
+@media (--landscape) {
+  body::before { content: "LANDSCAPE"; background: green; }
+}

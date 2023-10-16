@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "groupId": 1,
+    "name": "WMF 950 S",
+    "sku": 6
+  },
+  {
+    "id": 2,
+    "groupId": 2,
+    "name": "WMF 1100 S",
+    "sku": 7
+  },
+  {
+    "id": 3,
+    "groupId": 3,
+    "name": "WMF 1300 S",
+    "sku": 8
+  },
+  {
+    "id": 4,
+    "groupId": 4,
+    "name": "WMF 1500 S+",
+    "sku": 10
+  }
+]

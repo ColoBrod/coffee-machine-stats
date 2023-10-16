@@ -1,0 +1,36 @@
+@import 'style/media-queries';
+
+/* EXTRA LARGE */
+@media (--xl) {
+  .container { width: 1140px; }
+}
+
+/* LARGE */
+@media (--lg) {
+  .container { width: 960px; }
+}
+
+/* MEDIUM */
+@media (--md) {
+  .container { width: 720px; }
+}
+
+/* SMALL */
+@media (--sm) {
+  .container { width: 540px; }
+}
+
+/* EXTRA SMALL */
+@media (--xs) {
+  .container { width: 100%; }
+  .info-block { border-radius: 0; }
+}
+
+@media (--landscape) {
+}
+
+@media (--square) {
+}
+
+@media (--portrait) {
+}
