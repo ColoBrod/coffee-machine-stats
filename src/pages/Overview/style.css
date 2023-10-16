@@ -13,28 +13,35 @@
       @media (--lg) { width: 65% }
       @media (--md) { width: 75%}
       @media (--sm) { width: 65%}
-      @media (--xs) { width: 55%}
+      @media (--xs) { width: 65%}
     }
-    .dispensings-total {
+    aside {
       @media (--xl) { width: 30% }
       @media (--lg) { width: 35% }
       @media (--md) { width: 25%}
       @media (--sm) { width: 35%}
-      @media (--xs) { width: 45%}
+      @media (--xs) { width: 35%}
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       padding: 0 1.2rem;
 
+      > div:nth-child(1) {}
+      > div:nth-child(2) {
+        margin-top: 1.6rem;
+      }
+
       .amount {
-        padding: 1.8rem 0 0.8rem;
+        padding: 0rem 0 0.8rem;
         text-align: center;
         font-size: 2rem;
+        
       }
 
       .description {
         font-size: 1.2rem;
+        @media (--xs) { font-size: 1.1rem; }
         text-align: left;
         span {
           font-weight: 700;

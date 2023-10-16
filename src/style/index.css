@@ -19,7 +19,7 @@ body {
 }
 
 body::before, body::after {
-  display: none;
+  display: block;
   color: #FCFCFC;
   font-weight: 400;
   position: fixed;
@@ -73,7 +73,7 @@ body::after { left: 10px; bottom: 10px; }
     }
     @media (--xs) {
       grid-template-columns: 1fr;
-      grid-template-rows: repeat(4, 25rem);
+      grid-template-rows: repeat(4, 28rem);
     }
     gap: 2rem;
     flex-grow: 1;

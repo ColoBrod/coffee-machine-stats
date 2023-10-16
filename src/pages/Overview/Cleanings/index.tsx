@@ -44,20 +44,20 @@ class Cleanings extends Component {
           <div className="chart-wrapper">
             <BarChart id="cleanings" config={this.config} />
           </div>
-          <div className="dispensings-total">
-            <div className="dispensings-total__current-week">
+          <aside>
+            <div>
               <div className="amount">1.05</div>
               <div className="description">
                 times on average was each machine cleaned per day within the <span>current</span> week
               </div>
             </div>
-            <div className="dispensings-total__previous-week">
+            <div>
               <div className="amount">0.89</div>
               <div className="description">
               times on average was each machine cleaned per day within the <span>previous</span> week
               </div>
             </div>
-          </div>
+          </aside>
         </div>
       </div>
     );

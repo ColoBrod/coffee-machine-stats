@@ -49,23 +49,23 @@ class DispensingsByHierarchyLevel extends Component<Props> {
         <div>
           <div className="chart-wrapper">
             {
-              chartDisplay && <BarChart id="dispensings-by-date" config={this.config} />
+              chartDisplay && <BarChart id="dispensings-by-hierarchy-level" config={this.config} />
             }
           </div>
-          <div className="dispensings-total">
-            <div className="dispensings-total__current-week">
+          <aside>
+            <div>
               <div className="amount">{stats.max}</div>
               <div className="description">
                 Dispensings were served <span>in the highest rank</span>
               </div>
             </div>
-            <div className="dispensings-total__previous-week">
+            <div>
               <div className="amount">{stats.average.toFixed(2)}</div>
               <div className="description">
                 on average per machine within the last <span>{period}</span> days
               </div>
             </div>
-          </div>
+          </aside>
         </div>
       </div>
     );

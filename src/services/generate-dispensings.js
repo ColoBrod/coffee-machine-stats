@@ -7,8 +7,8 @@ function randomDispensing(id) {
   const dispensing = {
     id, machineId, recipeId, 
     localDate: randomDate(
-      new Date(2023, 10, 1),
-      new Date(),
+      new Date(2023, 9, 1),
+      new Date(2023, 9, 17),
       8,
       23
     ),
@@ -25,7 +25,7 @@ function randomDate(start, end, startHour, endHour) {
   return date;
 }
 
-for (let i = 0; i < 2348; i++) {
+for (let i = 0; i < 427; i++) {
   id = 1000 + i;
   randomDispensing(id);
 }

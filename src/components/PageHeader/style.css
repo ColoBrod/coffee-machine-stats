@@ -59,24 +59,12 @@ header.page-header {
 
 @media (--xl) {
   header.page-header {
-    h1 {
-    }
-    .divider {
-    }
     .stats {
-      img {
-      }
       &-inner {
         width: 12rem;
         font-size: 1.6em;
       }
-      &.dispensings {
-        span {
-        }
-      }
       &.refresh-time {
-        img {
-        }
         .stats-inner {
           width: 20rem;
         }
@@ -142,12 +130,24 @@ header.page-header {
 }
 @media (--xs) {
   header.page-header {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1.4rem 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    h1 { 
+      font-size: 2.0rem;
+    }
     .stats {
+      img {
+        margin-right: 1rem;
+      }
       &-inner {
-        width: 6rem;
-        font-size: 1.4em;
+        width: auto;
+        font-size: 1.2em;
+      }
+      &.dispensings {
+        span {
+          display: none;
+        }
       }
       &.refresh-time {
         .stats-inner {

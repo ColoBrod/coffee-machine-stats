@@ -60,20 +60,20 @@ class DispensingsByDate extends Component<Props> {
               chartDisplay && <BarChart id="dispensings-by-date" config={this.config} />
             }
           </div>
-          <div className="dispensings-total">
-            <div className="dispensings-total__current-week">
+          <aside>
+            <div>
               <div className="amount">{currentWeekTotal}</div>
               <div className="description">
                 Dispensings were served within the <span>current</span> week
               </div>
             </div>
-            <div className="dispensings-total__previous-week">
+            <div>
               <div className="amount">{previousWeekTotal}</div>
               <div className="description">
                 Dispensings were served within the <span>previous</span> week
               </div>
             </div>
-          </div>
+          </aside>
         </div>
       </div>
     );
