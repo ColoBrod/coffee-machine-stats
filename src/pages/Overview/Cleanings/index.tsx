@@ -25,6 +25,7 @@ class Cleanings extends Component {
     type: 'bar',
     data,
     options: {
+      maintainAspectRatio: false,
       plugins: {
         legend: {
           align: 'start',
@@ -45,13 +46,13 @@ class Cleanings extends Component {
           </div>
           <div className="dispensings-total">
             <div className="dispensings-total__current-week">
-              <div className="amount">1.00</div>
+              <div className="amount">1.05</div>
               <div className="description">
                 times on average was each machine cleaned per day within the <span>current</span> week
               </div>
             </div>
             <div className="dispensings-total__previous-week">
-              <div className="amount">1.00</div>
+              <div className="amount">0.89</div>
               <div className="description">
               times on average was each machine cleaned per day within the <span>previous</span> week
               </div>

@@ -11,10 +11,6 @@ interface Props {
   data: Data
 }
 
-// const data = {
-//   datasets: 
-// };
-
 class DispensingsByHierarchyLevel extends Component<Props> {
   private config: ChartConfiguration = {
     type: 'bar',
@@ -23,6 +19,7 @@ class DispensingsByHierarchyLevel extends Component<Props> {
       datasets: [],
     },
     options: {
+      maintainAspectRatio: false,
       indexAxis: 'y',
       plugins: {
         legend: {

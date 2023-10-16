@@ -18,6 +18,7 @@ class DispensingsByDate extends Component<Props> {
       datasets: [],
     },
     options: {
+      maintainAspectRatio: false,
       plugins: {
         legend: {
           align: 'start',
@@ -29,7 +30,6 @@ class DispensingsByDate extends Component<Props> {
   }
 
   render(): ReactNode {
-    const { data, refreshTime } = this.props;
     const currentWeek = this.getWeekData('current');
     const previousWeek = this.getWeekData('previous');
     this.config.data.datasets = [

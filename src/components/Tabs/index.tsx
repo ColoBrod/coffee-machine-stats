@@ -8,7 +8,6 @@ class Tabs extends Component {
   render() {
     return (
       <div className="tabs">
-        {/* TODO - Подсветка активной вкладки */}
         <NavLink to="/">Overview</NavLink>
         <NavLink to="/sales-export">Sales Export</NavLink>
       </div>

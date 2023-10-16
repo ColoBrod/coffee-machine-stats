@@ -1,13 +1,15 @@
+@import 'style/media-queries';
+
 header.page-header {
   padding: 2rem 0;
   border-width: 2px 0 2px;
   border-color: var(--clr-font);
   border-style: solid;
-
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 1rem;
+  font-size: 1.4rem;
 
   h1 {
     margin-right: auto;
@@ -30,9 +32,6 @@ header.page-header {
       align-items: center;
       justify-content: center;
       position: relative;
-      width: 12rem;
-      font-size: 2.4rem;
-      /* flex-shrink: 1; */
     }
     &.dispensings {
       span {
@@ -50,12 +49,112 @@ header.page-header {
       }
       .stats-inner {
         justify-content: flex-end;
-        width: 20rem;
       }
     }
 
     
   }
 
+}
+
+@media (--xl) {
+  header.page-header {
+    h1 {
+    }
+    .divider {
+    }
+    .stats {
+      img {
+      }
+      &-inner {
+        width: 12rem;
+        font-size: 1.6em;
+      }
+      &.dispensings {
+        span {
+        }
+      }
+      &.refresh-time {
+        img {
+        }
+        .stats-inner {
+          width: 20rem;
+        }
+      }
+    }
+  }
+}
+@media (--lg) {
+  header.page-header {
+    .stats {
+      &-inner {
+        width: 12rem;
+        font-size: 1.6em;
+      }
+      &.refresh-time {
+        .stats-inner {
+          width: 20rem;
+        }
+      }
+    }
+  }
+}
+@media (--md) {
+  header.page-header {
+    .stats {
+      &-inner {
+        width: 8rem;
+        font-size: 1.4em;
+      }
+      &.dispensings {
+        span {
+          display: none;
+        }
+      }
+      &.refresh-time {
+        .stats-inner {
+          width: 16.5rem;
+        }
+      }
+    }
+  }
+}
+@media (--sm) {
+  header.page-header {
+    padding-right: 1rem;
+    .stats {
+      &-inner {
+        width: 6rem;
+        font-size: 1.4em;
+      }
+      &.dispensings {
+        span {
+          display: none;
+        }
+      }
+      &.refresh-time {
+        .stats-inner {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (--xs) {
+  header.page-header {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    .stats {
+      &-inner {
+        width: 6rem;
+        font-size: 1.4em;
+      }
+      &.refresh-time {
+        .stats-inner {
+          display: none;
+        }
+      }
+    }
+  }
 }
 

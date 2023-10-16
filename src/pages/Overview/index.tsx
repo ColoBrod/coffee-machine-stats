@@ -26,6 +26,9 @@ class Overview extends Component<Props> {
           <Consumptions data={data} />
           <Cleanings />
           <DispensingsByHierarchyLevel data={data} />
+          <footer>
+            {/* safe-zone for scrolling */}
+          </footer>
         </div>
       </div>
     );

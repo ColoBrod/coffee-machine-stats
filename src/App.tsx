@@ -54,8 +54,8 @@ class App extends Component<{}, State> {
     console.log(basename)
 
     return (
-      <div id="app" className="container">
-        <BrowserRouter basename={basename}>
+      <BrowserRouter basename={basename}>
+        <div id="app" className="container">
           <Routes>
             <Route 
               path="/" 
@@ -70,9 +70,9 @@ class App extends Component<{}, State> {
               element={<NotFound />} 
             />
           </Routes>
-          <Tabs />  
-        </BrowserRouter>
-      </div>
+        </div>
+        <Tabs />  
+      </BrowserRouter>
     );
   }
 

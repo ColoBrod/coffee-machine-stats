@@ -8,6 +8,3 @@
 @custom-media --landscape (min-aspect-ratio: 4/3);
 @custom-media --square (min-aspect-ratio: 3/4) and (max-aspect-ratio: 4/3);
 @custom-media --portrait (max-aspect-ratio: 3/4);
-
-/* @custom-media --portrait (orientation: portrait);
-@custom-media --landscape (orientation: landscape); */
