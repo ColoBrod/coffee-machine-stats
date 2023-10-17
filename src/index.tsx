@@ -8,3 +8,4 @@ if (container) {
   const element = React.createElement(App, {}, null);
   root.render(element);
 }
+
